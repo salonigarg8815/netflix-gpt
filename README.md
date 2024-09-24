@@ -81,6 +81,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - use Ref
 - firebase setup
 - Diploying are app to production
+- create Signup User Account
+- implement Sign In user API
+- Created redux store with userslice
 
 # Features
 
