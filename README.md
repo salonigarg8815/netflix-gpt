@@ -90,6 +90,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - BugFix: if the user is not logged in redirect to Browse/
 - UnSubscribed to the onauthstate change callback
 - Add hardcoded values to the constant file
+- Register TMDB API & create an app & get excess Token
+- Get data from TMDB now playing movie list API
 
 # Features
 
