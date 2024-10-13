@@ -7,6 +7,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { USER_AVATAR } from "../utils/constants";
+import { BG_URL } from "../utils/constants"
 
 const Login = () => {
     const [isSignInForm, setisSignInForm] = useState(true);
@@ -83,7 +84,7 @@ const Login = () => {
         <div>
             <Header />
             <div className="absolute">
-                <img src="https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg" alt="bg-img" />
+                <img src={BG_URL} alt="bg-img" />
             </div>
 
             <form onSubmit={(e) => e.preventDefault()} className=" w-3/12 absolute p-12 bg-black my-28 mx-auto left-0 right-0 text-white bg-opacity-90 rounded-lg">

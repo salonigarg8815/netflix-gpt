@@ -97,6 +97,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - update store with movie data
 - Embeded the youtube video and make it autoplay and mute
 - Tailwind classes to make main container
+- Build Secondary component
+- Build Movie List
+- Build Movie Card
+- TMDB img cdn url
+- Made the browse page amazing with tailwind css
+- usePopular movie custom hook
+- GPT search feature
+- GptSearch page
+- Gpt Search bar
+- Multi language feature in our app
 
 # Features
 
