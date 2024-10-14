@@ -3,7 +3,7 @@
 const GptMoviesSuggesion = () => {
     return (
         <div>
-            GptMoviesSuggesion
+            {/* GptMoviesSuggesion */}
         </div>
     )
 }

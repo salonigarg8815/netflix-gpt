@@ -9,6 +9,8 @@ import { LOGO } from "../utils/constants";
 import { toggleGptSearchView } from "../utils/gptSlice";
 import { SUPPORTED_LANGUAGES } from "../utils/constants";
 import { changeLanguage } from '../utils/configSlice'
+import { USER_AVATAR } from '../utils/constants'
+
 
 
 const Header = () => {
@@ -60,8 +62,8 @@ const Header = () => {
     }
 
     return (
-        <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
-            <img className="w-44" src={LOGO} alt="Logo" />
+        <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
+            <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="Logo" />
 
             {user &&
                 (<div className="flex p-2">
@@ -78,7 +80,7 @@ const Header = () => {
                         {showGptSearch ? "Home" : "GPT Search"}
                     </button>
 
-                    <img className="w-8 h-8 m-4" src={user?.photoURL} alt="userIcon" />
+                    <img className="rounded-lg w-8 h-8 m-4" src={USER_AVATAR} alt="userIcon" />
 
                     <button onClick={handleSignOut} className="font-bold text-white bg-red-800 px-4 m-4 rounded-lg">Sign Out</button>
                 </div>)
